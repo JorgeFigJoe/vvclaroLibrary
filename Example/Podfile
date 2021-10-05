@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'vccLibrary_Example' do
+  pod 'vccLibrary', :path => '../'
+
+  target 'vccLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

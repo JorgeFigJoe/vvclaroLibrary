@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import vccLibrary
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,13 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    @IBAction func openAppAction(_ sender: Any) {
+        let openApp = dinamicLink()
+        openApp.login{ (response) in
+            print(response)
+        }
+    
+    }
+    
 }
 

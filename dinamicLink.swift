@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct dinamicLink {
+public struct dinamicLink {
     
     public init() {
         

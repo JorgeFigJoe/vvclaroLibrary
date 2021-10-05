@@ -1,0 +1,22 @@
+{
+  "name": "vccLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of vccLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jorfig1@gmail.com/vccLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jorfig1@gmail.com": "sanchezjorf@globalhitss.com"
+  },
+  "source": {
+    "git": "https://github.com/jorfig1@gmail.com/vccLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "vccLibrary/Classes/**/*"
+}
